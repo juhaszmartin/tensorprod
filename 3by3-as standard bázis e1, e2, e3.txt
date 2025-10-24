@@ -1,0 +1,19 @@
+3by3-as standard bázis: e1, e2, e3
+bázis 3x3 szimm. részében bázis: e1xe1; 1/sqrt2 (e1xe2 + e2xe1); 1/sqrt2 (e1xe3 + e3xe1); e2xe2;  1/sqrt2 (e2xe3 + e3xe2); e3xe3
+M (3by3 mx; 9 fgtlen változó)
+pi(M)_j,k = bra(b_j) ket(MxM b_k)
+M reprezentánsa 6by6 mx (36 szám); fenti bázisban, abban a sorrendben:
+pl.: pi(M)_1,2 = bra(e1xe1) ket(MxM 1/sqrt2 (e1xe2 + e2xe1)) = 1/sqrt2 bra(e1xe1) ket(Me1xMe2 +Me2xMe1) = sqrt(2)[ bra(e1)ket(Me1) * bra(e1)ket(Me2)] = sqrt(2) [M_1,1 * M_1,2]
+
+
+
+
+
+ellenőrzés: pi(M*N) ?= pi(M) * pi(N)           (random M,N)
+pi(M^dagger) = pi(M)^dagger
+
+
+
+task: n<=10-ig szimm. reprezentánsai 
+
+note: n=k-ra normáló faktor: 1/sqrt([k!/(#e1!* #e2!* #e3!)])
